@@ -29,7 +29,7 @@ def train_model(
         for train in train_loader:
             # input & target tensors
             input = torch.cat((train['x'][:, 1:, :], train['delta_x']), dim=2).type(torch.float)
-            crops = crops = net.normalize_crops(train['crops'][:, -1, :])
+            crops = net.normalize_crops(train['crops'][:, -1, :])
             target = train['delta_y'].type(torch.float)
             
             input, crops, target = input.to(device), crops.to(device), target.to(device)
