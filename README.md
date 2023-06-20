@@ -1,7 +1,7 @@
 # 2DCyclistTrajectoryPrediction
 
 ## Install
-The requirements.txt file contains a list of all the necessary packages and their versions for this project.
+The `requirements.txt` file contains a list of all the necessary packages and their versions for this project.
 
 ```bash
 pip install -r requirements.txt
