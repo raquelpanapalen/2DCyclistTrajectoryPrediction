@@ -23,7 +23,6 @@ This repository contains scripts and notebooks for the project. Below is an over
     - metrics.py              # Metrics computation script
     
 - notebooks/                  # Jupyter notebooks
-    - 
 ```
 
 ### Scripts
