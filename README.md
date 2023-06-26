@@ -4,9 +4,9 @@
 The `requirements.txt` file contains a list of all the necessary packages and their versions for this project.
 
 ```bash
-pip install -r requirements.txt
 git clone git@github.com:raquelpanapalen/2DCyclistTrajectoryPrediction.git
 cd 2DCyclistTrajectoryPrediction
+pip install -r requirements.txt
 ```
 
 ## Project structure
